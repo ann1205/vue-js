@@ -1,0 +1,21 @@
+body {
+    background-color: #c6dbec;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #233446;
+}
+button {
+    display: flex;
+    flex: auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+th {
+    border: 0.1px solid white;
+    font-size: 10px;
+    color: white;
+    background-color: #233446;
+    padding-right: 20px;
+    }

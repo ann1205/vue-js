@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'/>
+    </style>
+</head>
+<body>
+    <div id="app">
+  {{ message }}
+</div>
+<div id="app-2">
+  <button v-on:click = "play"><i class="fas fa-play-circle"></i></button>
+</div>
+<div id="app-3">
+  <button v-on:click = "addNew"><i class="fas fa-plus"></i>New</button>
+</div>
+<div id="app-4">
+  <button v-on:click = "deleteAll"><i class="fas fa-times"></i>Delete All</button>
+</div>
+<div id="app-5">
+  <button v-on:click = "repostAll"><i class="fas fa-redo-alt"></i>Repost All</button>
+</div>
+<table id="table">
+  <tr>
+    <th id="call-controll">Call Controll</th>
+    <th id="read">Read</th>
+    <th id="sound/auto-call">Sound / Auto Call</th>
+    <th id="truck">Truck</th>
+    <th id="origin">Origin</th>
+    <th id="destination">Destination</th>
+    <th id="pickup">Pickup</th>
+    <th id="dh-o">DH-O</th>
+    <th id="dh-d">DH-D</th>
+    <th id="f/p">F/P</th>
+    <th id="length">Length</th>
+    <th id="weight">Weight</th>
+    <th id="tpip">Tpip</th>
+    <th id="alarm">Alarm</th>
+    <th id="actions">Actions</th>
+  </tr>
+</table>
+
+<div id="app-">
+  <button v-on:click = "undo"><i class="fas fa-undo-alt"></i></i>Undo</button>
+</div>
+<div id="app-">
+  <button v-on:click = "clear"><i class="fas fa-ban"></i></i>Clear</button>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="vue.js"></script>  
+</body>
+</html>
