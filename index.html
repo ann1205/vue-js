@@ -17,7 +17,7 @@
   <button v-on:click = "play"><i class="fas fa-play-circle"></i></button>
 </div>
 <div id="app-3">
-  <button v-on:click = "addNew"><i class="fas fa-plus"></i>New</button>
+  <button onclick = "addNew('dataTbody')"><i class="fas fa-plus"></i>New</button>
 </div>
 <div id="app-4">
   <button v-on:click = "deleteAll"><i class="fas fa-times"></i>Delete All</button>
@@ -26,23 +26,28 @@
   <button v-on:click = "repostAll"><i class="fas fa-redo-alt"></i>Repost All</button>
 </div>
 <table id="table">
+  <thead>
   <tr>
-    <th id="call-controll">Call Controll</th>
-    <th id="read">Read</th>
-    <th id="sound/auto-call">Sound / Auto Call</th>
-    <th id="truck">Truck</th>
-    <th id="origin">Origin</th>
-    <th id="destination">Destination</th>
-    <th id="pickup">Pickup</th>
-    <th id="dh-o">DH-O</th>
-    <th id="dh-d">DH-D</th>
-    <th id="f/p">F/P</th>
-    <th id="length">Length</th>
-    <th id="weight">Weight</th>
-    <th id="tpip">Tpip</th>
-    <th id="alarm">Alarm</th>
-    <th id="actions">Actions</th>
+    <th id="call-controll" type="text">Call Controll</th>
+    <th id="read" type="text">Read</th>
+    <th id="sound/auto-call" type="text">Sound / Auto Call</th>
+    <th id="truck" type="text">Truck</th>
+    <th id="origin" type="text">Origin</th>
+    <th id="destination" type="text">Destination</th>
+    <th id="pickup" type="text">Pickup</th>
+    <th id="dh-o" type="text">DH-O</th>
+    <th id="dh-d" type="text">DH-D</th>
+    <th id="f/p" type="text">F/P</th>
+    <th id="length" type="text">Length</th>
+    <th id="weight" type="text">Weight</th>
+    <th id="tpip" type="text">Tpip</th>
+    <th id="alarm" type="text">Alarm</th>
+    <th id="actions" type="text">Actions</th>
   </tr>
+</thead>
+<tbody id="dataTbody">
+  
+  </tbody>
 </table>
 
 <div id="app-">
